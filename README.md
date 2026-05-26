@@ -38,12 +38,6 @@ skills/Claude/
 skills/<SkillName>/
 ```
 
-如果 skill 来自压缩包，优先完整解压后再检查是否存在：
+每次新增、删除或更新 skill 后，须同步更新上方「当前收录」
 
-```text
-SKILL.md
-scripts/
-LICENSE.txt
-```
 
-确认结构完整后再提交。
