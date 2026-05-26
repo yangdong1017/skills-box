@@ -9,37 +9,11 @@
 |---|---|---|
 | Claude.skill | `skills/Claude.skill/` | Anthropic 官方 Skill Creator，用于创建、修改、评估和优化。 |
 
-## 标准目录结构
 
-```text
-skills-box/
-  README.md
-  skills/
-    Claude.skill/
-      SKILL.md
-      scripts/
-      agents/
-      references/
-      assets/
-      eval-viewer/
-      LICENSE.txt
-```
-
-单个 skill 推荐保持如下结构：
-
-```text
-skills/<SkillName>/
-  SKILL.md          # skill 主说明与触发规则
-  scripts/          # skill 依赖脚本
-  assets/           # 素材、模板或静态资源
-  references/       # 参考资料、schema、规则文档
-  agents/           # 子 agent 定义，如有
-  LICENSE.txt       # 许可证，如有
-```
 
 ## 使用方式
 
-克隆仓库：
+克隆全部仓库：
 
 ```bash
 git clone https://github.com/yangdong1017/skills-box.git
