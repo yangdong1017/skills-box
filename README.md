@@ -7,8 +7,8 @@
 
 | Skill | 路径 | 说明 |
 |---|---|---|
-| Claude.skill | `skills/Claude.skill/` | Anthropic 官方 Skill Creator，用于创建、修改、评估和优化。 |
-| tongjincheng-claude-upload | `skills/tongjincheng-claude-upload/` | 童锦程视角关系分析 skill，用于暧昧、聊天、恋爱和人际关系建议。 |
+| Claude | `skills/Claude/` | Anthropic 官方 Skill Creator，用于创建、修改、评估和优化。 |
+| tongjincheng | `skills/tongjincheng/` | 童锦程视角关系分析 skill，用于暧昧、聊天、恋爱和人际关系建议。 |
 
 
 
@@ -25,7 +25,7 @@ git clone https://github.com/yangdong1017/skills-box.git
 例如：
 
 ```text
-skills/Claude.skill/
+skills/Claude/
 ```
 
 
