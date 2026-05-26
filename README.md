@@ -1,18 +1,13 @@
 # skills-box
 
-个人 Claude Skills 收藏仓库，用来存放标准化、可搬运、带脚本的 skill 包。
+个人  Skills 收藏仓库，用来存放标准化、可搬运、带脚本的 skill 包。
 
-## 仓库定位
-
-这个仓库不是分类目录，也不是教程合集，而是一个私人 skill 包仓库。
-
-每个 skill 都应当作为一个独立目录存在，目录内保留完整的 `SKILL.md`、脚本、素材、引用资料和许可证等文件，方便后续直接复制、同步、安装或二次改造。
 
 ## 当前收录
 
 | Skill | 路径 | 说明 |
 |---|---|---|
-| Claude.skill | `skills/Claude.skill/` | Anthropic 官方 Skill Creator，用于创建、修改、评估和优化 Claude skills。 |
+| Claude.skill | `skills/Claude.skill/` | Anthropic 官方 Skill Creator，用于创建、修改、评估和优化。 |
 
 ## 标准目录结构
 
@@ -58,13 +53,6 @@ git clone https://github.com/yangdong1017/skills-box.git
 skills/Claude.skill/
 ```
 
-## 收录原则
-
-- 一个 skill 一个独立目录。
-- 保留原始 `SKILL.md` 和配套脚本。
-- 不拆散 skill 包内部结构。
-- 不按分类重组目录，避免破坏可搬运性。
-- 修改第三方 skill 时，优先保留许可证和来源信息。
 
 ## 维护规则
 
